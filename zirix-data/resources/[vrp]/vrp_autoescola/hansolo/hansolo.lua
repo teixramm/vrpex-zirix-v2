@@ -372,6 +372,7 @@ Citizen.CreateThread(function()
                 DoScreenFadeOut(1000)
                 Wait(1500)
                 TriggerEvent('autoescola:final')
+		onrota = false
             end
         end
 
